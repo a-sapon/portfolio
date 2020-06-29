@@ -1,0 +1,75 @@
+.navWrapper,
+.navWrapperTop {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  font-size: 12px;
+  line-height: 50px;
+  transition: all 600ms ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .navWrapper,
+  .navWrapperTop {
+    font-size: 14px;
+    line-height: normal;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navWrapper,
+  .navWrapperTop {
+    font-size: 17px;
+  }
+}
+
+.navWrapper {
+  height: 50px;
+  background-color: #000000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.navWrapperTop {
+  padding-top: 10px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.navListItem {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  transition: all 0.3s;
+}
+.navListItem:hover {
+  color: #f08503;
+  transform: perspective(1px) translateZ(0);
+}
+
+.logo {
+  font-family: 'Kaushan Script', cursive;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  color: #f08503;
+  text-decoration: none;
+}
+
+.navListItemActive {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.navList {
+  display: flex;
+  color: #ffffff;
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "window-service.png",
+    "title": "Window Service",
+    "description": "This is a commercial project for a company specializing in making plastic windows. The page shows available products, allows customers to calculate the approximate price for a certain window and send a callback request. There is also a node.js back-end that sends the info about the customer and the selected window from a submit-form 'Оставить заявку' to a group in Telegram.",
+    "webUrl": "https://window-service.com.ua",
+    "tools": ["react", "redux", "node.js", "express"]
+  },
+  {
+    "id": 1,
+    "imageUrl": "it-test.png",
+    "title": "IT Test",
+    "description": "This is a web application where you can pass several programming language tests. To check your programming skills you can choose a test, answer a certain amount of test questions, and get the results.",
+    "webUrl": "https://it-test.netlify.app",
+    "tools": ["react", "redux", "redux-thunk", "axios", "react-circle"]
+  },
+  {
+    "id": 2,
+    "imageUrl": "square-game.png",
+    "title": "Square Game",
+    "description": "It's a simple 2d game created with reactjs and redux. A user selects the game difficulty, enters his/her name, and press PLAY. At the specified time interval a random square highlights in blue. If the user manages to click on the square during this time - it turns green and the player gets a point, if not - the square turns red and a point goes to the computer. When a player (or computer) paints more than 50% of all possible squares in his/her color - he/she becomes a winner.",
+    "webUrl": "https://a-sapon.github.io/react-square-game",
+    "tools": [
+      "react",
+      "redux",
+      "redux-thunk",
+      "material-ui",
+      "react-transition-group"
+    ]
+  },
+  {
+    "id": 3,
+    "imageUrl": "perfect-body.png",
+    "title": "Perfect Body",
+    "description": "This is a calorie counting app that helps users to lose weight. After entering your info and your goal weight on the homepage the app will calculate the number of calories you should eat every day. Once registered and logged in you can add products you ate to keep track of consumed calories.",
+    "webUrl": "https://perfect-body.netlify.app",
+    "tools": [
+      "react",
+      "react-chart",
+      "react-day-picker",
+      "react-router-dom",
+      "redux",
+      "redux-persist",
+      "redux-thunk"
+    ]
+  },
+  {
+    "id": 4,
+    "imageUrl": "image-finder.png",
+    "title": "Image Finder",
+    "description": "This is a web application for searching for nice pictures, which are being fetched from the Pixabay API. You can use the Escape key to close an image and use arrow keys to get the next/previous picture.",
+    "webUrl": "https://a-sapon.github.io/image-finder",
+    "tools": ["react", "axios"]
+  },
+  {
+    "id": 5,
+    "imageUrl": "filmoteka.png",
+    "title": "Filmoteka",
+    "description": "This is the app for searching for movies. On the home page, you can see the most popular recent movies. You can also search for specific movies by name and add them to your watched list or to the queue to watch later. The content is being fetched from themoviedb API.",
+    "webUrl": "https://a-sapon.github.io/filmoteka",
+    "tools": ["Vanilla JS", "Gulp"]
+  },
+  {
+    "id": 6,
+    "imageUrl": "hellen.png",
+    "title": "Hell English",
+    "description": "This is a landing page for a company that helps its customers to prepare for English exams. Created using only HTML and CSS and built with Gulp. Adaptive layout for mobile, tablet, and desktop devices.",
+    "webUrl": "https://a-sapon.github.io/html-css-project/build/",
+    "tools": ["HTML5", "CSS3"]
+  }
+]

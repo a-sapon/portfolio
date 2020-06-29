@@ -1,0 +1,45 @@
+.iconWrapper {
+  padding: 0 0 10px 20px;
+}
+
+.burgerIcon,
+.closeIcon {
+  fill: #ffffff;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.burgerIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.closeIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.modalWrapper {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.modalList {
+  text-align: center;
+  font-size: 14px;
+}
+
+.modalListItem {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.modalListItem:hover {
+  color: #f08503;
+}

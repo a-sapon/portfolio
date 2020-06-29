@@ -1,0 +1,41 @@
+.leftArrow,
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  fill: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+}
+
+.leftArrow:hover,
+.rightArrow:hover {
+  fill: #ffffff;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.leftArrow {
+  left: 0;
+}
+
+.rightArrow {
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .leftArrow,
+  .rightArrow {
+    width: 60px;
+    height: 60px;
+  }
+
+  .leftArrow {
+    left: -70px;
+  }
+
+  .rightArrow {
+    right: -70px;
+  }
+}

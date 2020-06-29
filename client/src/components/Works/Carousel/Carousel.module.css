@@ -1,0 +1,141 @@
+.slideContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.slide {
+  position: relative;
+  z-index: -2;
+  background-color: #252525;
+  padding: 40px 34px 0 36px;
+  text-align: center;
+}
+
+.slideTitle,
+.slideDescription {
+  color: #ffffff;
+}
+
+.slideTitle {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  padding-bottom: 10px;
+}
+
+.slideDescription {
+  font-size: 13px;
+  line-height: 18px;
+  text-align: justify;
+  padding: 0 10px 10px 0;
+}
+
+.slideTools {
+  color: #ffffff;
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.slideTools li {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin: 0 0 10px 10px;
+}
+
+.slideImg {
+  box-shadow: inset 0px -100px 76px -43px rgba(0, 0, 0, 0.75);
+  margin-bottom: 10px;
+}
+
+.slideImg img {
+  position: relative;
+  z-index: -1;
+}
+
+.slideLink {
+  font-size: 10px;
+  background-color: #f08503;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 30px;
+}
+
+.slideLink:hover {
+  background-color: #e27c00;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  fill: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  transition: transform 200ms ease-in-out;
+}
+
+.closeIcon:hover {
+  fill: #ffffff;
+  transform: scale(1.1);
+}
+
+@media (max-width: 767px) {
+  .slide {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .slide {
+    width: 60%;
+    max-width: 1050px;
+    max-height: 100%;
+    padding: 20px 50px;
+  }
+
+  .slideTitle {
+    padding-bottom: 20px;
+  }
+
+  .slideDescription {
+    font-size: 15px;
+    line-height: 22px;
+    padding: 0 20px 10px 0;
+  }
+
+  .slideTools {
+    font-size: 15px;
+  }
+
+  .slideLink {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    padding: 8px 12px;
+  }
+
+  .slideImg {
+    margin-bottom: 20px;
+  }
+
+  .closeIcon {
+    width: 20px;
+    height: 20px;
+  }
+}

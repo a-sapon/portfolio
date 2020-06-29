@@ -1,0 +1,31 @@
+.locationLink {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.locationLink:hover {
+  color: #f08503;
+  transform: perspective(1px) translateZ(0);
+}
+
+.locationText {
+  color: #ffffff;
+  font-size: 11px;
+  width: 120px;
+  padding-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .locationText {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .locationText {
+    width: 130px;
+    font-size: 16px;
+  }
+}

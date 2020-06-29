@@ -1,0 +1,75 @@
+.hdrGradient {
+  background: linear-gradient(
+      90deg,
+      #050507 0%,
+      #050507 20%,
+      rgba(5, 5, 7, 0.95) 30%,
+      rgba(5, 5, 7, 0.9) 40%,
+      rgba(5, 5, 7, 0.8) 50%,
+      #211a1d 70%,
+      #211a1d 100%
+    ),
+    url(../../images/background.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  margin: 0 auto;
+}
+
+.hdr {
+  margin: 0 auto;
+  height: 200px;
+  color: #ffffff;
+  line-height: 50px;
+}
+
+.hdrTitle {
+  font-weight: 800;
+  font-size: 22px;
+  padding-top: 80px;
+  letter-spacing: 1.5px;
+}
+
+.hdrText {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.hdrText::before {
+  content: '';
+  display: inline-block;
+  height: 2px;
+  width: 30px;
+  background-color: #f08503;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.mainSection {
+  margin: 0 auto;
+  background-color: #03020a;
+}
+
+@media (min-width: 768px) {
+  .hdr {
+    height: 594px;
+    background-image: url(../../images/me.png);
+    background-repeat: no-repeat;
+    background-position: 86% 100%;
+    background-size: 311px 500px;
+    line-height: 68px;
+    letter-spacing: 1.5px;
+  }
+
+  .hdrTitle {
+    font-size: 38px;
+    padding-top: 200px;
+  }
+
+  .hdrText {
+    font-size: 21px;
+  }
+
+  .hdrText::before {
+    width: 40px;
+  }
+}

@@ -1,0 +1,51 @@
+.copyBtn {
+  letter-spacing: 1.2px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  padding: 6px 10px;
+  font-size: 14px;
+  margin: 10px 0 0 0;
+  transition: all 150ms ease-in;
+}
+
+.copyBtn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.copyBtn:active {
+  box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.copyBtn:focus {
+  outline: none;
+}
+
+.popUpWindow {
+  width: 144px;
+  height: 28px;
+  background-color: #f08503;
+  color: #ffffff;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  position: absolute;
+  top: 40%;
+  right: 1%;
+}
+
+@media (min-width: 768px) {
+  .popUpWindow {
+    width: 220px;
+    height: 40px;
+    font-size: 12px;
+    top: 20%;
+  }
+}
+
+@media (min-width: 1900px) {
+  .popUpWindow {
+    top: 15%;
+  }
+}
