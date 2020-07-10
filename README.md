@@ -1,1 +1,1 @@
-### Check out the live page [https://glacial-taiga-35410.herokuapp.com/](here).
+### Check out the live page [here](https://glacial-taiga-35410.herokuapp.com/).
